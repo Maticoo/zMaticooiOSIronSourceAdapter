@@ -48,10 +48,9 @@ This is zMaticoo iOS SDK IronSource Adaper.
   #
 
   #spec.license      = "MIT (example)"
-   spec.license      = { :type => "MIT", :file => "LICENSE" }
-   spec.dependency 'IronSourceSDK'
-   spec.dependency 'zMaticoo'
-   spec.static_framework = true
+   s.dependency 'IronSourceSDK'
+   s.dependency 'zMaticoo'
+   s.static_framework = true
 
 # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -61,7 +60,7 @@ This is zMaticoo iOS SDK IronSource Adaper.
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "Classes", "Classes/**/*.{h,m}"
+  s.source_files  = "Classes", "Classes/**/*.{h,m}"
   #spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
